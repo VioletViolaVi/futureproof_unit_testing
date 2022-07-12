@@ -1,5 +1,5 @@
 node_modules
 # for macs:
 .DS_Store
-# needs to be here if used
+# needs to be here if used:
 coverage

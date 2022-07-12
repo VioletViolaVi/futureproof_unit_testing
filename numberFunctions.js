@@ -8,4 +8,12 @@ const getSmallest = () => {
 };
 
 // needs exporting
-module.exports = getLargest;
+module.exports = {
+  getLargest,
+  getSmallest,
+  /* 
+    - same as above: 
+    getLargest: getLargest,
+    getSmallest: getSmallest, 
+  */
+};

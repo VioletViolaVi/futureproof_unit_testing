@@ -1,6 +1,11 @@
 const each = require("jest-each").default; // to get each to work
 
-const getLargest = require("../numberFunctions");
+const { getLargest, getSmallest } = require("../numberFunctions");
+/*
+  - same as above:
+  const getLargest = numberFunctions.getLargest
+  const getSmallest = numberFunctions.getSmallest 
+*/
 
 // describe() does lots of other stuff :) & can be nested
 describe("This is the getLargest() describe test", () => {
@@ -13,8 +18,10 @@ describe("This is the getLargest() describe test", () => {
       [[1, 2, 3], 3],
       [[9, 8, 7], 9],
       [[12, 36, 19], 36],
-      // "%s -> %s" for putting placeholders test in test outputs in terminal
-      // (arr, expected) are placeholders whilst the arguments are above
+      /* 
+        - "%s -> %s" for putting placeholders test in test outputs in terminal
+        - (arr, expected) are placeholders whilst the arguments are above 
+      */
     ]).test("%s -> %s", (arr, expected) => {
       expect(getLargest(...arr)).toEqual(expected);
     });
