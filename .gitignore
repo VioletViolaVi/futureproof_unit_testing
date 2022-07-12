@@ -3,4 +3,5 @@ node_modules
 .DS_Store
 # needs to be here if used:
 coverage
+# extra that ought to be deleted bu wanted to keep for personal reference
 exceptions.js
