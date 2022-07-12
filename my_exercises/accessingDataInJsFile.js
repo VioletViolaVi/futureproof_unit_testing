@@ -1,3 +1,4 @@
+// 2. Experimenting
 const { person } = require("./dataInJs");
 
 console.log(person);
