@@ -18,5 +18,43 @@ describe("This is the getLargest() describe test", () => {
     ]).test("%s -> %s", (arr, expected) => {
       expect(getLargest(...arr)).toEqual(expected);
     });
+
+    /*    
+      - same as using "each()" as seen above:
+
+    test("", () => {
+      const result = getLargest(1, 2, 3);
+
+      expect(result).toEqual(3);
+    });
+
+    test("", () => {
+      const result = getLargest(3, 3, 3);
+
+      expect(result).toEqual(3);
+    });
+
+    test("", () => {
+      const result = getLargest(-1, -2, 3);
+
+      expect(result).toEqual(3);
+    });
+
+    test("", () => {
+      const result = getLargest(0.4, 1.5, 3);
+
+      expect(result).toEqual(3);
+    });
+  });    
+*/
   });
+
+  /*
+    - extra notes:
+  test("getLargest func returns the largest value", () => {
+    const result = getLargest(2, 2, 2);
+
+    expect(result).toEqual(3);
+  }); 
+  */
 });
