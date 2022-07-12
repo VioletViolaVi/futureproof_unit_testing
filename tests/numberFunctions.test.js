@@ -1,11 +1,11 @@
 const each = require("jest-each").default; // to get each to work
 
-const getLargest = require("../getLargest");
+const numberFunctions = require("../numberFunctions");
 
 // describe() does lots of other stuff :) & can be nested
-describe("This is the getLargest() describe test", () => {
-  test("getLargest is a function", () => {
-    expect(typeof getLargest).toBe("function");
+describe("This is the numberFunctions() describe test", () => {
+  test("numberFunctions is a function", () => {
+    expect(typeof numberFunctions).toBe("function");
   });
 
   describe("it handles normal inputs successfully", () => {
@@ -16,32 +16,32 @@ describe("This is the getLargest() describe test", () => {
       // "%s -> %s" for putting placeholders test in test outputs in terminal
       // (arr, expected) are placeholders whilst the arguments are above
     ]).test("%s -> %s", (arr, expected) => {
-      expect(getLargest(...arr)).toEqual(expected);
+      expect(numberFunctions(...arr)).toEqual(expected);
     });
 
     /*    
       - same as using "each()" as seen above:
 
     test("", () => {
-      const result = getLargest(1, 2, 3);
+      const result = numberFunctions(1, 2, 3);
 
       expect(result).toEqual(3);
     });
 
     test("", () => {
-      const result = getLargest(3, 3, 3);
+      const result = numberFunctions(3, 3, 3);
 
       expect(result).toEqual(3);
     });
 
     test("", () => {
-      const result = getLargest(-1, -2, 3);
+      const result = numberFunctions(-1, -2, 3);
 
       expect(result).toEqual(3);
     });
 
     test("", () => {
-      const result = getLargest(0.4, 1.5, 3);
+      const result = numberFunctions(0.4, 1.5, 3);
 
       expect(result).toEqual(3);
     });
@@ -51,8 +51,8 @@ describe("This is the getLargest() describe test", () => {
 
   /*
     - extra notes:
-  test("getLargest func returns the largest value", () => {
-    const result = getLargest(2, 2, 2);
+  test("numberFunctions func returns the largest value", () => {
+    const result = numberFunctions(2, 2, 2);
 
     expect(result).toEqual(3);
   }); 
