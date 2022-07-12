@@ -22,6 +22,10 @@ All testing in this project is done using [Jest](https://jestjs.io/)
 
   - `npm install --save-dev jest`: to focus on building projects with jest as supposed to just using it
 
+  - `npm install --save-dev coverage`: to focus on building projects with coverage as supposed to just using it
+
+    - add to `.gitignore` once installed
+
   - `npm run test`: to run tests in terminal
 
 - To add more detail for test results add `--verbose`

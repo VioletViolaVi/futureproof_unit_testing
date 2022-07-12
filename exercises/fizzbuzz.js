@@ -5,16 +5,18 @@ const fizzBuzz = (num) => {
     return "Fizz";
   } else if (num % 5 === 0) {
     return "Buzz";
-  } else {
+  } else if (typeof num === "number") {
     return num;
+  } else {
+    return "Not valid, please use a number";
   }
 };
 
-console.log(fizzBuzz(15));
-console.log(fizzBuzz(3));
-console.log(fizzBuzz(5));
-console.log(fizzBuzz("apple"));
-console.log(typeof ("apple" % 2));
+console.log(fizzBuzz(15)); // FizzBuzz
+console.log(fizzBuzz(3)); // Fizz
+console.log(fizzBuzz(5)); // Buzz
+console.log(fizzBuzz(11)); // 11
+console.log(fizzBuzz("apple")); // "Not valid, please use a number"
 
 module.exports = {
   fizzBuzz,
