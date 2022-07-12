@@ -24,13 +24,15 @@ All testing in this project is done using [Jest](https://jestjs.io/)
 
   - `npm run test`: to run tests in terminal
 
-- to add more detail for test results add `--verbose`
+- To add more detail for test results add `--verbose`
 - `"test": "jest --verbose"`:
 - Other ways:
 
   - `"jest":{"verbose": true}`
   - `const config = {verbose: true}; module.exports = config;`
   - this is the most ideal way as it maintains separation of concerns
+
+- `Powershell npm run coverage`: to run coverage
 
 - `"coverage": "jest --coverage"`: how much of our code is being tested
   - needs to put in `.gitignore`

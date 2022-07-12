@@ -3,3 +3,4 @@ node_modules
 .DS_Store
 # needs to be here if used:
 coverage
+exceptions.js
