@@ -7,7 +7,7 @@ const { getLargest, getSmallest } = require("../numberFunctions");
   const getSmallest = numberFunctions.getSmallest 
 */
 
-// describe() does lots of other stuff :) & can be nested
+/* describe() does lots of other stuff & can be nested */
 
 // test for getLargest()
 describe("This is the getLargest() describe test", () => {
