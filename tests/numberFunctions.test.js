@@ -36,7 +36,7 @@ describe("This is the getLargest() describe test", () => {
     });
 
     /*    
-      - same as using "each()" as seen above:
+      - same as using "each()" (as seen above):
 
     test("", () => {
       const result = getLargest(1, 2, 3);
