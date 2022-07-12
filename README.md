@@ -33,3 +33,4 @@ All testing in this project is done using [Jest](https://jestjs.io/)
   - this is the most ideal way as it maintains separation of concerns
 
 - `"coverage": "jest --coverage"`: how much of our code is being tested
+  - needs to put in `.gitignore`
