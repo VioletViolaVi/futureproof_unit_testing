@@ -19,5 +19,8 @@
   "homepage": "https://github.com/VioletViolaVi/futureproof_unit_testing#readme",
   "devDependencies": {
     "jest": "^28.1.2"
+  },
+  "dependencies": {
+    "jest-each": "^28.1.1"
   }
 }
