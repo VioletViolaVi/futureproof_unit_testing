@@ -1,4 +1,4 @@
-// variables
+// 1 . variables
 const person = {
   hadCoffeeToday: false,
   howMuchCoffeeToday: 0,
@@ -22,4 +22,8 @@ const person = {
   },
   otherLikedDrinks: ["juice", "fizzy pop", "milkshake", "flavoured water"],
   whoToMeetForDrink: ["Dan", "April", "Emily", "Reese"],
+};
+
+module.exports = {
+  person,
 };

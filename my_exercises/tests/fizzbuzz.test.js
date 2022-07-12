@@ -1,4 +1,4 @@
-const { fizzBuzz } = require("../exercises/fizzbuzz"); // imports fizzbuzz.js
+const { fizzBuzz } = require("../fizzbuzz"); // imports fizzbuzz.js
 const each = require("jest-each").default;
 
 describe("This is the FizzBuzz test", () => {
