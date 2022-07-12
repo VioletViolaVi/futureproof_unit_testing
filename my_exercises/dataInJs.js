@@ -1,4 +1,4 @@
-// 1 . variables
+// 1 . Variables
 const person = {
   hadCoffeeToday: false,
   howMuchCoffeeToday: 0,

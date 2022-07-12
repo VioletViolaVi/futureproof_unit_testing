@@ -1,4 +1,4 @@
-// 3. Determine data types:
+// 3. Determine data types
 
 /* 
 - 1 ----> number
