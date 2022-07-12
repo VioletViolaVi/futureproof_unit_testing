@@ -1,1 +1,3 @@
-# futureproof_unit_testing
+# Futureproof Unit Testing
+
+This repository contains example code for unit testing with JavaScript.
