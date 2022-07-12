@@ -24,9 +24,9 @@ All testing in this project is done using [Jest](https://jestjs.io/)
 
 - `npm run test`: to run tests in terminal
 
-- `"test": "jest --verbose"`:
   - to add more detail for test results add `--verbose`
-  - Other ways:
-    - `"jest":{"verbose": true}`
-    - `const config = {verbose: true}; module.exports = config;`
-      - this is the most ideal way as it maintains separation of concerns
+    - `"test": "jest --verbose"`:
+    - Other ways:
+      - `"jest":{"verbose": true}`
+      - `const config = {verbose: true}; module.exports = config;`
+        - this is the most ideal way as it maintains separation of concerns
